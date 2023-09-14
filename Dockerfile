@@ -19,6 +19,9 @@ ADD . /app
 # build the project
 RUN npm run build
 
+# ENV NUXT_HOST=0.0.0.0
+# ENV NUXT_PORT=3000
+
 # expose the host and port 3000 to the server
 ENV HOST 0.0.0.0
 EXPOSE 3000

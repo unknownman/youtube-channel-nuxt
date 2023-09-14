@@ -3,10 +3,10 @@ export default function () {
     const channelId = config.public.channelId
     const apiKey = config.public.apiKey
     const videos = ref(false)
-    const channelTitle = ref("")
-    const channelUrl = ref("")
-    const channelDescription = ref("")
-    const channelLogo = ref("")
+    const channelTitle = useState("title")
+    const channelUrl = useState("url")
+    const channelDescription = useState("description")
+    const channelLogo = useState("logo")
 
     async function load () {
         const { data, pending, error, refresh } = await useFetch(`https://www.googleapis.com/youtube/v3/channels?part=snippet&id=${channelId}&key=${apiKey}`, {

@@ -10,6 +10,12 @@ export default defineNuxtConfig({
     public: {
       apiKey: process.env.API_KEY,
       channelId: process.env.CHANNEL_ID,
+      timeZone: 'Asia/Tehran',
+      calendar: "georgian",
+      iso: "en-US"
     }
-  }
+  },
+  css: [
+    '@/assets/css/main.css'
+  ]
 })

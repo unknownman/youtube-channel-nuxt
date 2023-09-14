@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Borel&family=Bungee&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Handjet:wght@100&family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
